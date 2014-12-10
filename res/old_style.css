@@ -50,7 +50,8 @@ html.monospace {
 }
 .monospace .bottone,
 .monospace .bottone:hover,
-.monospace .input_casella {
+.monospace .input_casella,
+.monospace .error {
 	border-radius: 0;
 	box-shadow: none;
 	background-color: transparent;
@@ -71,6 +72,10 @@ html.monospace {
 	color: #eee;
 	border: 0.063em dashed #666;
 	background-color: transparent;
+}
+.monospace .error {
+	color: #f00;
+	border: 0.063em dashed #f00;
 }
 .monospace input:focus {
 	box-shadow: none;

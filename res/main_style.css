@@ -90,7 +90,8 @@ section {
 p,
 h1,
 h2,
-input {
+input,
+.error {
 	margin: 0 0 1.25em 0;
 	padding: 0;
 	display: block;
@@ -149,11 +150,18 @@ h2 {
 .azione:before {
 	content: '> ';
 }
-.input_casella {
+.input_casella,
+.error {
 	height: 2em;
 	padding: 0 0.32em;
 	line-height: 2em;
 	font-size: 1em;
 	border: 0;
 	border-radius: 0.25em;
+	color: #bc3e3e;
+}
+.error {
+	display: none;
+	background-color: #eb8989;
+	border: 1px solid #bc3e3e;
 }
