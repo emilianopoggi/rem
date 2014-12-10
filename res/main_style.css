@@ -3,8 +3,9 @@
 MODERN STYLE
 ===================================================
 */
+@import url(http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic);
 html {
-	font-family: 'Libre Baskerville', Serif;
+	font-family: 'PT Serif', serif;
 }
 body {
 	min-width: 20em;
@@ -152,7 +153,7 @@ h2 {
 }
 .input_casella,
 .error {
-	height: 2em;
+	min-height: 2em;
 	padding: 0 0.32em;
 	line-height: 2em;
 	font-size: 1em;

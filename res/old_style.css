@@ -3,6 +3,10 @@
 OLD STYLE
 ===================================================
 */
+@import url(http://fonts.googleapis.com/css?family=PT+Mono);
+html.monospace {
+	font-family: 'PT Mono', monospace;
+}
 #monospace {
 	height: 3em;
 	padding-top: 2em;
@@ -19,9 +23,6 @@ OLD STYLE
 }
 #monospace span.attivo {
 	display: inline;
-}
-html.monospace {
-	font-family: 'PT Mono', courier, fixed, monospace;
 }
 .monospace body {
 	color: #ddd;
