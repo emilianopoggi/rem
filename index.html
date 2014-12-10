@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="it" class="monospace">
+<head>
+	<meta charset="utf-8">
+	<meta name="robots" content="noindex, nofollow">
+	<title>Titolo</title>
+	<link href='http://fonts.googleapis.com/css?family=PT+Mono|Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="res/main_style.css">
+	<link rel="stylesheet" type="text/css" href="res/old_style.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+	<script type="text/javascript" src="res/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="res/azioni.js"></script>
+</head>
+<body>
+	<header><h1>titolo</h1><span id="segnalibro">segnalibro</span></header>
+	<div class="menu-fisso">
+		<div class="reset"><a href="index.html" target="_self" class="bottone">Reset</a></div>
+		<div id="monospace">DOS mode is<a class="bottone"><span class="attivo">ON</span><span>OFF</span></a></div>
+	</div>
+	<!--====================================
+			SEZIONI
+		====================================
+			SEZIONE_1
+		====================================-->
+	<section id="sezione_1" class="sezione">
+		<h1 class="titolo">titolo</h1>
+		<h2 class="sottotitolo">Un'avventura testuale di <span class="autore">autore</span></h2>
+		<p class="contenuto_testo">
+			Benvenuto!<br>
+			Quella che stai per giocare è un'avventura testuale.<br>
+			Le avventure testuali (o interactive fiction) sono software privi di grafica nei quali i giocatori leggono la descrizione dell'ambiente che li circonda e - attraverso comandi testuali o scelte preimpostate - interagiscono con la storia, gli oggetti e i personaggi descritti.<br>
+			Per la loro natura, le avventure testuali possono essere interpretate sia come un'opera letteraria che come un videogioco.<br>
+			In questa avventura l'interazione sarà limitata alla scelta del percorso da seguire... più o meno come i libri-game.<br>
+			Sei pronto per iniziare?
+		</p>
+		<p class="console">
+			<a class="azione">Continua</a><span class="cursore">_</span>
+		</p>
+	</section>
+	<!--====================================
+			SEZIONE_2
+		====================================-->
+	<section id="sezione_2" class="sezione">
+		<p class="contenuto_testo">
+			<h1>Prologo</h1>
+			Cammini in un vicolo buio, senza odori. Per quanto ti sforzi non riesci a ricordare come ci sei arrivato.<br>
+			È notte, non distingui i colori, ma dopo pochi secondi cominci a percepire l'ambiente che ti circonda. Tutto sembra ingiallito, come una vecchia pellicola.<br>
+			<em>"Dove sono?"</em>, dici. <em>"Come sono finito qui ...e chi diavolo sono?"</em><br>
+			Già. Chi sei?
+		</p>
+		<input size="25" id="nome_utente" class="input_casella" type="text" name="nome_utente" placeholder="Scrivi qui il tuo nome...">
+		<p class="console">
+			<a class="azione">Continua</a><span class="cursore">_</span>
+		</p>
+	</section>
+	<!--====================================
+			SEZIONE_3
+		====================================-->
+	<section id="sezione_3" class="sezione">
+		<p class="contenuto_testo">
+			<em>"Io... sono... sono <span class="nome_immesso">nome utente</span>... Sì, almeno questo riesco a ricordarlo. Forse sto riacquistando la lucidità."</em><br>
+			Forse.<br>
+			<br>
+			Cosa vuoi fare?
+		</p>
+		<p class="console">
+			<a class="azione opt_a">Prosegui lungo il vicolo;</a><br>
+			<a class="azione opt_b">Concentrati e cerca di ricordare altro;</a><br>
+			<a class="azione opt_c">Dev'essere un sogno. Datti un pizzicotto!</a><span class="cursore">_</span>
+		</p>
+	</section>
+	<!--====================================
+			SEZIONE_4a
+		====================================-->
+	<section id="sezione_4a" class="sezione">
+		<p class="contenuto_testo">
+			testo
+		</p>
+		<p>
+			Cosa vuoi fare?
+		</p>
+		<p class="console">
+			<a class="azione">azione</a>
+		</p>
+	</section>
+	<!--====================================
+			SEZIONE_4b
+		====================================-->
+	<section id="sezione_4b" class="sezione">
+		<p class="contenuto_testo">
+			testo
+		</p>
+		<p>
+			Cosa vuoi fare?
+		</p>
+		<p class="console">
+			<a class="azione">azione</a>
+		</p>
+	</section>
+	<!--====================================
+			SEZIONE_4c
+		====================================-->
+	<section id="sezione_4c" class="sezione">
+		<p class="contenuto_testo">
+			testo
+		</p>
+		<p>
+			Cosa vuoi fare?
+		</p>
+		<p class="console">
+			<a class="azione">azione</a>
+		</p>
+	</section>
+	<!--====================================
+			END SEZIONI
+		====================================-->
+	<footer>
+		<span>
+			<span class="autore">autore</span>,&nbsp;&copy;&nbsp;<span class="anno">0000</span>
+		</span>
+	</footer>
+</body>
+</html>

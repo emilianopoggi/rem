@@ -1,0 +1,77 @@
+/*
+===================================================
+OLD STYLE
+===================================================
+*/
+#monospace {
+	height: 3em;
+	padding-top: 2em;
+	position: fixed;
+	text-align: right;
+	top: 0;
+	right: 0;
+}
+#monospace .bottone {
+	margin: 0 1em 0 0.25em;
+}
+#monospace span {
+	display: none;
+}
+#monospace span.attivo {
+	display: inline;
+}
+html.monospace {
+	font-family: 'PT Mono', courier, fixed, monospace;
+}
+.monospace body {
+	color: #ddd;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAECAYAAABP2FU6AAAAFElEQVQIW2NUUlL6zwgmREVFIQQAMTMFSxzDAMgAAAAASUVORK5CYII=);
+	background-color: #333;
+}
+.monospace .menu-fisso {
+	background-color: #111;
+}
+.monospace h1,
+.monospace h2 {
+	color: #0f0;
+	text-shadow: none;
+	font-weight: bold;
+}
+.monospace header {
+	background-color: #111;
+	color: #ddd;
+	border-bottom: 0.063em dashed #aaa;
+	box-shadow: none;
+}
+.monospace footer {
+	background-color: #111;
+	color: #ddd;
+	border-top: 0.063em dashed #aaa;
+}
+.monospace .bottone,
+.monospace .bottone:hover,
+.monospace .input_casella {
+	border-radius: 0;
+	box-shadow: none;
+	background-color: transparent;
+}
+.monospace .bottone {
+	color: #0f0;
+	border-bottom: 0.063em dotted #0f0;
+	border-top: 0.063em dotted transparent;
+}
+.monospace .bottone:hover {
+	border-top: 0.063em dotted #0f0;
+}
+.monospace .azione,
+.monospace .cursore {
+	color: #0f0;
+}
+.monospace input {
+	color: #eee;
+	border: 0.063em dashed #666;
+	background-color: transparent;
+}
+.monospace input:focus {
+	box-shadow: none;
+}
