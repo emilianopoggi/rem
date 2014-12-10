@@ -69,6 +69,13 @@ html.monospace {
 .monospace .cursore {
 	color: #0f0;
 }
+.monospace .azione:hover {
+	background-color: #0f0;
+	color: #333;
+}
+.monospace .azione:hover .cursore {
+	color: #333;
+}
 .monospace input {
 	color: #eee;
 	border: 0.063em dashed #666;

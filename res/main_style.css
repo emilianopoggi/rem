@@ -132,6 +132,7 @@ h2 {
 	border-radius: 0.35em;
 	box-shadow: 0.125em 0.125em 0 #aaa;
 	cursor: pointer;
+	transition: all 0.3s ease;
 }
 .bottone:hover {
 	box-shadow: 0.125em 0.25em 0 #aaa;
@@ -144,9 +145,11 @@ h2 {
 	display: inline;
 	cursor: pointer;
 	text-decoration: none;
+	background-color: transparent;
+	transition: all 0.3s ease;
 }
 .azione:hover {
-	text-decoration: underline;
+	background-color: #ffb400;
 }
 .azione:before {
 	content: '> ';
